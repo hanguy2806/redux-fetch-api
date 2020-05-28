@@ -37,5 +37,4 @@ const MapDispatchToProps=(dispatch)=>{
     fetchUsers: ()=>dispatch(fetchUsers)
   }
 }
-
 export default connect(MapStateToProps,MapDispatchToProps)(App);
